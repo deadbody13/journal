@@ -20,7 +20,7 @@ Pretty much what your page will look like. I really like the No Tears font becau
 
 ### Fluff
 
-If ou would like something a little more at home, you can get your terminal to look something like a notepad (credits at the bottom) with a kitty config located at `extra/kitty`. Just drop the folder into your `~/.config` directory and the next instance of kitty you launch should look something like a notebook.
+If you would like something a little more at home, you can get your terminal to look something like a notepad (credits at the bottom) with a kitty config located at `extra/kitty`. Just drop the folder into your `~/.config` directory and the next instance of kitty you launch should look something like a notebook.
 
 ![kitty notebook](screenshots/kitty-config.png)
 
@@ -28,6 +28,6 @@ I promise it looks cleaner while you're using it, I just can't find a screen cap
 
 ## Credits
 
-Thanks for checking out my GitHub, hope you were entertained. Most of the fonts in this come from Owen Earl, you can check out his fonts over at [indestructible type*](https://indestructibletype.com/Home.html). I really love all the fonts he puts out, especially those from the Jost font family, which was the original font used for this but I eventually opted for No Tears as this seemed like the best time to use it.
+Thanks for checking out my GitHub, hope you were entertained. Most of the fonts in this come from Owen Earl, you can check out his fonts over at [indestructible type*](https://indestructibletype.com/Home.html). I really love all the fonts he puts out, especially those from the Jost* font family, which was the original font used for this but I eventually opted for No Tears* as this seemed like the best time to use it.
 
 The idea for the terminal notepad theme and the image that it tiles for the notebook lines comes from [wooosh](https://github.com/wooosh/dots) and it uses the [rose-pine](https://github.com/rose-pine/rose-pine-theme) theme.
