@@ -1,0 +1,102 @@
+@font-face {
+	font-family: "Jost Light";
+	src: url("../fonts/Jost-300-Light.ttf");
+}
+@font-face {
+	font-family: "Jost Medium";
+	src: url("../fonts/Jost-500-Medium.ttf");
+}
+@font-face {
+	font-family: "Jost Bold";
+	src: url("../fonts/Jost-700-Bold.ttf");
+}
+@font-face {
+	font-family: "Jost Heavy";
+	src: url("../fonts/Jost-800-Heavy.ttf");
+}
+
+@font-face {
+	font-family: "No Tears";
+	src: url("../fonts/no-tears.ttf");
+}
+@font-face {
+	font-family: "No Tears Bold";
+	src: url("../fonts/no-tears-bold.ttf");
+}
+
+@font-face {
+	font-family: "Deadsevka Medium";
+	src: url("../fonts/dead-sevka-extended.ttf")
+}
+@font-face {
+	font-family: "Deadsevka Heavy";
+	src: url("../fonts/dead-sevka-extendedheavy.ttf")
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #6a7e9c;
+}
+a:hover {
+	color: #00009db5;
+}
+html {
+	font-family: "Jost Medium";
+}
+body {
+	font-family: "Jost Medium";
+	background: #fff7e3;
+}
+
+.journal-entry h2 {
+	font-family: "Deadsevka Heavy";
+	color: #6c3e2ab8;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+.journal-entry h3 {
+	font-family: "Jost Medium";
+	color: #8f8f85;
+	font-size: 15pt;
+	margin-left: 20px;
+}
+.journal-entry h4 {
+	font-family: "Deadsevka Medium";
+	color: #8f8f85;
+	font-size: 15px;
+	text-decoration: underline;
+	margin-left: 20px;
+}
+.journal-entry p {
+	font-family: "No Tears";
+	text-align: justify;
+	text-justify: auto;
+	border-left: 10px double #e5e5e0;
+	padding-left: 20px;
+	margin-bottom: 15px;
+}
+.journal-entry a {
+	font-family: "Deadsevka Medium";
+	text-decoration: none;
+	margin-top: 10px;
+	border-left: 5px groove #d6d1bc;
+	padding-left: 7px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.journal-entry-home {
+	margin-top: 10px;
+}
+
+.journal-home h1 {
+	font-family: "Jost Bold";
+	color: #6c3e2ab8;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+.journal-home-entry {
+	font-family: "Deadsevka Medium";
+	text-align: center;
+}

@@ -1,0 +1,33 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Cookbook | {{ page.title }}</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+  </head>
+  <div class="container">
+  <body>
+      <div class="row justify-content-center">
+        <div class="cookbook col-lg-5 col-md-8 col-12">
+          <a href="../index.html">home</a>
+          <br>
+          {% for x in site.data.tags %}
+            {% if page.tags contains x.tag %}
+            | <a href="../{{ x.tag }}.html"> {{ x.tag }} </a>
+            {% endif %}
+          {% endfor %}
+          <div style="padding-bottom: 20px;"></div>
+
+          {{ content }}
+
+        </div>
+      </div>
+    {% include footer.html %}
+  </div>
+  </body>
+</html>
