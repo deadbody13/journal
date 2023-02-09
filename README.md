@@ -22,9 +22,9 @@ Pretty much what your page will look like. I really like the No Tears font becau
 
 If you would like something a little more at home, you can get your terminal to look something like a notepad (credits at the bottom) with a kitty config located at `extra/kitty`. Just drop the folder into your `~/.config` directory and the next instance of kitty you launch should look something like a notebook.
 
-![kitty notebook](screenshots/kitty-config.png)
+If you're more of a URxvt person I have the config set up for that as well in `journal/extra/.Xresources`. Just go to where that file is, make the change to the path of the tiled-background image, and run `xrdb -m .Xresources`.
 
-I promise it looks cleaner while you're using it, I just can't find a screen capture fine enough so the terminal font looks smudgy.
+![urxvt notebook](screenshots/urxvt_screenshot.png)
 
 ## Credits
 
