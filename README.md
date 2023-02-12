@@ -32,4 +32,4 @@ Thanks for checking out my GitHub, hope you were entertained. Here are some hono
 
 Most of the fonts in this come from Owen Earl, you can check out his fonts over at [indestructible type*](https://indestructibletype.com/Home.html). I really love all the fonts he puts out, especially those from the Jost* font family, which was the original font used for this but I eventually opted for No Tears* as this seemed like the best time to use it.
 
-The idea for the terminal notepad theme and the image that it tiles for the notebook lines comes from [wooosh](https://github.com/wooosh/dots) and it uses the [rose-pine](https://github.com/rose-pine/rose-pine-theme) theme.
+The idea for the terminal notepad theme and and the URxvt conifgs for it come from [wooosh](https://github.com/wooosh/dots). The kitty configs provided use the tiled image from wooosh and the [rose-pine](https://github.com/rose-pine/rose-pine-theme) theme.
